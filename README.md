@@ -20,3 +20,5 @@ Demo to get to know ansible.
   ```
   ansible-playbook -i inventory-ad-hoc hello.yml
   ```
+
+> The play above creates a new file on the EC2 instance named '/tmp/testfile.txt' with the content 'hello world'.
